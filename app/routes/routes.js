@@ -13,8 +13,8 @@ module.exports = function(app, express){
   app.use(methodOverride());
 
   app.get('/', home.index);
-  app.get('/colors', games.index);
-  app.get('/pm', games.index);
+  app.get('/colors', games.colors);
+  app.get('/pacman', games.pacman);
   console.log('Routes Loaded');
 };
 
