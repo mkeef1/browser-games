@@ -4,6 +4,6 @@ exports.index = function(req, res){
   res.render('home/index');
 };
 
-/*exports.index = function(req, res){
-  res.render('home/colors');
-};*/
+exports.index = function(req, res){
+  res.render('games/colors');
+};
