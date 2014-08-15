@@ -1,0 +1,12 @@
+extends ../shared/template
+block content
+  h2 Painter Page
+  #controls
+    input(type='color', value='#ff33cc')
+    button Add Color
+  #colors
+    #selected
+  #canvas
+
+block scripts
+  script(src='/js/user/painter.js')
